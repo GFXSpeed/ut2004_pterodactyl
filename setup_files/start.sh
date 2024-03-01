@@ -42,8 +42,8 @@
 #
 GAMEDIR=/home/container
 INIFILE=${GAMEDIR}/System/UT2004.ini
-ADMINNAME=${4}
-ADMINPASS=${5}
+ADMINNAME='AdminName='${4}
+ADMINPASS='AdminPassword='${5}
 #
 #
 # Game types which are used by this script.  Change as desired, but be
