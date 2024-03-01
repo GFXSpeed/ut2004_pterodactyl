@@ -126,4 +126,3 @@ sed -i "/^ListenPort=/s/ListenPort=.*/ListenPort=${3}/" "${INIFILE}"
 echo "Starting ut2004 server"
 cd ./System/
 ./ucc-bin server "${GAMETYPE}?${ADMINNAME}?${ADMINPASS}?${MUTATORS} -ini=${INIFILE} -nohomedir"
-echo "Server is running"
