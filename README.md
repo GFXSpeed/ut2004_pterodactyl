@@ -28,6 +28,7 @@ Feel free to contact me at discord: gfxspeed
 
 
 Many thanks to: 
+
 https://github.com/parkervcp for a ton of pterodactyl eggs. Could learn alot 
 http://jsalmi.com/ut2004/ for the base of the start.sh file 
 http://uz2.pwc-networks.com/ for still hosting a lot of UT2k4 mods
