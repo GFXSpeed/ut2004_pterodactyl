@@ -50,7 +50,7 @@
         },
         {
             "name": "Adminname",
-            "description": "Admin name for webadmin. Also displayed in serverinfo",
+            "description": "Admin name for webadmin",
             "env_variable": "adminname",
             "default_value": "admin",
             "user_viewable": false,
