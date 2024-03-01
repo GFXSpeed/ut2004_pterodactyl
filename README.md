@@ -21,8 +21,8 @@ Working gametype variables:
 You can set your wanted mutators in start.sh file. 
 
 Things you may want to add/change: 
-  - add a "cdkey" file in ./System/ with your key
   - change Name/Region/MessageOfTheDay in ./System/UT2004.ini, starting at line 292
+  - add a "cdkey" file in ./System/ with your key to get rid of "Couldn't open cdkey file." error
 
 Feel free to contact me at discord: gfxspeed
 
