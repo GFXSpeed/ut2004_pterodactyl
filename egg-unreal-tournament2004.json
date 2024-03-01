@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-03-01T17:14:23+01:00",
+    "exported_at": "2024-03-01T17:18:49+01:00",
     "name": "Unreal Tournament 2004",
     "author": "noreply@schafhaupt.com",
     "description": "Run your own UT2k4 server",
@@ -16,7 +16,7 @@
     "startup": ".\/start.sh {{GAMEMODE}} {{SERVER_PORT}} {{WEBADMIN_PORT}} {{ADMINNAME}} {{ADMINPASSWORD}}",
     "config": {
         "files": "{}",
-        "startup": "{\r\n    \"done\": \"Server is running\"\r\n}",
+        "startup": "{\r\n    \"done\": \"Approval APPROVED\"\r\n}",
         "logs": "{}",
         "stop": "^C"
     },
