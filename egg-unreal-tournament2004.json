@@ -4,7 +4,7 @@
         "version": "PTDL_v2",
         "update_url": null
     },
-    "exported_at": "2024-03-01T17:04:20+01:00",
+    "exported_at": "2024-03-01T17:13:43+01:00",
     "name": "Unreal Tournament 2004",
     "author": "noreply@schafhaupt.com",
     "description": "Run your own UT2k4 server",
@@ -13,7 +13,7 @@
         "gfxspeed\/ut2004_pterodactyl:0.2": "gfxspeed\/ut2004_pterodactyl:0.2"
     },
     "file_denylist": [],
-    "startup": ".\/start.sh {{gamemode}} {{SERVER_PORT}} {{webadmin_port}} {{adminname}} {{adminpassword}} {{servername}}",
+    "startup": ".\/start.sh {{GAMEMODE}} {{SERVER_PORT}} {{WEBADMIN_PORT}} {{ADMINNAME}} {{ADMINPASSWORD}}",
     "config": {
         "files": "{}",
         "startup": "{\r\n    \"done\": \"Server is running\"\r\n}",
@@ -50,7 +50,7 @@
         },
         {
             "name": "Adminname",
-            "description": "Admin name for webadmin",
+            "description": "Admin name for webadmin. Also displayed in serverinfo",
             "env_variable": "adminname",
             "default_value": "admin",
             "user_viewable": false,
